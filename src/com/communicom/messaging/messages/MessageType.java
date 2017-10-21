@@ -1,0 +1,12 @@
+package com.communicom.messaging.messages;
+
+public enum MessageType {
+
+    PING_SERVER_REQUEST,
+    PING_SERVER_RESPONSE,
+    SET_WAIT_fOR_SIGNAL_REQUEST,
+    SET_WAIT_FOR_SIGNAL_RESPONSE,
+    BOOTSTRAP_OPERATION_REQUEST,
+    BOOTSTRAP_OPERATION_RESPONSE
+
+}
